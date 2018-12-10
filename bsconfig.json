@@ -1,0 +1,24 @@
+{
+  "name": "reason-btree",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs" : true
+    },
+    {
+      "dir": "__tests__",
+      "type": "dev"
+    }
+  ],
+  "entries": [
+    {
+      "backend": "js",
+      "main-module": "Tree"
+    }
+  ],
+  "bs-dependencies": [
+    "@glennsl/bs-jest"
+  ],
+  "refmt": 3
+}

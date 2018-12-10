@@ -1,0 +1,23 @@
+{
+  "name": "reason-btree",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "precommit": "#"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@glennsl/bs-jest": "0.4.5"
+  },
+  "devDependencies": {
+    "bs-platform": "4.0.7"
+  }
+}
