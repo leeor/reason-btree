@@ -1,0 +1,13 @@
+####{BSB GENERATED: NO EDIT
+FLG -ppx /Users/leeor/src/reasonml-btree/node_modules/bs-platform/lib/bsppx.exe
+S /Users/leeor/src/reasonml-btree/node_modules/bs-platform/lib/ocaml
+B /Users/leeor/src/reasonml-btree/node_modules/bs-platform/lib/ocaml
+FLG -nostdlib -color always
+FLG -w -30-40+6+7+27+32..39+44+45+101
+S /Users/leeor/src/reasonml-btree/node_modules/@glennsl/bs-jest/lib/ocaml
+B /Users/leeor/src/reasonml-btree/node_modules/@glennsl/bs-jest/lib/ocaml
+S __tests__
+B lib/bs/__tests__
+S src
+B lib/bs/src
+####BSB GENERATED: NO EDIT}

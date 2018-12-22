@@ -1,6 +1,6 @@
 open Jest;
 open Expect;
-open Tree;
+open IntTree;
 
 describe("Tree", () =>
   test("sum", () => {
